@@ -41,3 +41,12 @@ Initially, the dataset the organization received comprised of a number of column
 - The variable that is the *target* for the model - *IS_SUCCESSFUL Column* 
 - The variables that are the features for the model - *APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT.*
 - There were 2 columns that were not targets or features for the dataset, I decided to drop them as they had no impact. *EIN and NAME*
+
+### Compile, Train, and Evaluate the Model
+
+As shown in the image below, I had created 2 hidden node layers. My first layer = 80 Neurons. Second layer = 30 Neurons. The first two layers composed of a "Relu" function whereas the output layer had a "Sigmoid" activation function.
+
+![Compile, Training, Eval](https://user-images.githubusercontent.com/102767530/200875422-c66736f7-69b6-4ca3-b873-cf38d41c6a7c.png)
+
+
+
